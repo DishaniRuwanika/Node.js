@@ -1,6 +1,6 @@
 console.log('Hello to Node.js!');
 
-/*const fs = require('fs');
+const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
   if (err) throw err;
@@ -9,7 +9,7 @@ fs.readFile('file.txt', 'utf8', (err, data) => {
 
 
 
-const http = require('http');
+/*const http = require('http');
 
 http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
