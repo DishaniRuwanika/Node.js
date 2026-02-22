@@ -37,7 +37,7 @@ console.log(myModule.myFunction());
 
 
 
-/*const condition = true;
+const condition = true;
 
 const myPromise = new Promise((resolve, reject) => {
   if (condition) resolve("Success!");
@@ -50,7 +50,7 @@ myPromise
 
 
 
-
+/*
   async function myFunction() {
   try {
     const result = await myPromise;
