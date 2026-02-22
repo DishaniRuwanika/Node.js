@@ -1,6 +1,6 @@
 console.log('Hello to Node.js!');
 
-const fs = require('fs');
+/*const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
   if (err) throw err;
@@ -60,4 +60,4 @@ myPromise
   }
 }
 
-myFunction();
+myFunction();*/
