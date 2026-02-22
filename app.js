@@ -9,7 +9,7 @@ fs.readFile('file.txt', 'utf8', (err, data) => {
 
 
 
-/*const http = require('http');
+const http = require('http');
 
 http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -18,7 +18,7 @@ http.createServer((req, res) => {
 }).listen(8080);
 
 
-const https = require('https');
+/*const https = require('https');
 
 https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
   let data = '';
