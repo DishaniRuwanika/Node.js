@@ -50,7 +50,7 @@ myPromise
 
 
 
-/*
+
   async function myFunction() {
   try {
     const result = await myPromise;
@@ -60,4 +60,4 @@ myPromise
   }
 }
 
-myFunction();*/
+myFunction();
