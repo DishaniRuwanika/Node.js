@@ -1,21 +1,21 @@
 console.log('Hello to Node.js!');
 
-/*const fs = require('fs');
+const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
   if (err) throw err;
   console.log(data);
-});*/
+});
 
 
 
-/*const http = require('http');
+const http = require('http');
 
 http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write('Hello World!');
   res.end();
-}).listen(8080);*/
+}).listen(8080);
 
 
 /*const https = require('https');
